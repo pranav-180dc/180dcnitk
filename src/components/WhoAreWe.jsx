@@ -15,7 +15,7 @@ const WhoAreWe = () => {
         <p className='text-justify p-4 subpixel-antialiased font-extralight text-xl italic'>
         "Why are we called 180 Degrees? It's because we work to turn good organizations into great organizations, challenges into opportunities, ideas into reality. We're focused on positive transformation. Transforming organizations, and - in turn - transforming lives." - Nat Ware (Founder & CEO)</p>
         </div>
-    </div>
+        </div>
     </div>
   )
 }
