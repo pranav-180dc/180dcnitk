@@ -6,8 +6,8 @@ import car_1 from '../assets/carousel_1.png';
 // grid grid-cols-1 grid-rows-3 justify-items-center
 export default function HomeCarousel(){
     return (
-        <div className="h-screen">
-          <Carousel slideInterval={500000000}>
+        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 bg-clip-content bg-transparent">
+          <Carousel indicators={false} leftControl rightControl slideInterval={5000000}>
             <img src={car_1} alt="..." className="h-fit w-full" />
             <img src={MNSTK} alt="..." className="h-fit w-full" />
             <img src={MNSTK} alt="..." className="h-fit w-full" />
