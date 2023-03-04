@@ -15,7 +15,7 @@ function OurServices() {
     <div className='text-lime-600 text-4xl sm:text-6xl md:text-7xl font-bold p-8 md:p-12'>OUR SERVICES</div>
     <div className='invisible sm:visible h-2 w-64 md:w-96 rounded-xl bg-clip-content bg-gradient-to-r from-lime-600 to-transparent'></div>
     <div className='px-10 md:px-14 lg:px-28 pt-10 font-extralight text-lg'>
-    <p className='text-justify text-2xl'>We are able to support your organization with any challenge it is facing. In addition to developing projects that address your organization's unique challenges, We have also developed special expertise in these six common areas through our work with non-profits globally.</p>
+    <p className='text-justify text-xl lg:text-2xl'>We are able to support your organization with any challenge it is facing. In addition to developing projects that address your organization's unique challenges, We have also developed special expertise in these six common areas through our work with non-profits globally.</p>
     </div>
     </div>
     <div className='flex flex-col sm:flex-row px-10 md:px-14 lg:px-28 text-base sm:text-sm lg:text-xl font-semibold text-lime-600'>
