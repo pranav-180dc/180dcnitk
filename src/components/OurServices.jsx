@@ -10,7 +10,7 @@ import middleSVG from '../assets/middleSVG.png'
 
 function OurServices() {
   return (
-    <div>
+    <div id="services">
     <div className='flex flex-col justify-center items-center mt-32'>
     <div className='text-lime-600 text-4xl sm:text-6xl md:text-7xl font-bold p-8 md:p-12'>OUR SERVICES</div>
     <div className='invisible sm:visible h-2 w-64 md:w-96 rounded-xl bg-clip-content bg-gradient-to-r from-lime-600 to-transparent'></div>
