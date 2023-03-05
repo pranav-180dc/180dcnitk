@@ -3,7 +3,7 @@ const profiles = [{
     id: 1,
     member: "Ranjeet Sonawane",
     position: "President",
-    imgUrl: "https://www.google.com",
+    imgUrl: "https://drive.google.com/file/d/1k1KXlnEoZekwVPr2AIiILqwchJIxGf-x/view?usp=sharing",
     bio: {
         line_1: "Incoming Product Analyst at Sprinklr",
         line_2: "Junior Consultant at Brainworks Consultancy",

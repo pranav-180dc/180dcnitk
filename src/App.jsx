@@ -4,6 +4,8 @@ import Nav from "./components/Nav";
 import HomeCarousel from "./components/HomeCarousel";
 import WhoAreWe from "./components/WhoAreWe";
 import OurServices from "./components/OurServices";
+import Team from "./components/Team";
+import { Footer } from "flowbite-react";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <HomeCarousel />
       <WhoAreWe />
       <OurServices />
+      <Team />
+      <Footer />
     </div>
   )
 }
