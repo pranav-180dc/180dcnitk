@@ -5,7 +5,7 @@ import HomeCarousel from "./components/HomeCarousel";
 import WhoAreWe from "./components/WhoAreWe";
 import OurServices from "./components/OurServices";
 import Team from "./components/Team";
-import { Footer } from "flowbite-react";
+import Footer from "./components/Footer";
 
 function App() {
   return (

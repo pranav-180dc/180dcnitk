@@ -8,7 +8,7 @@ import car_2 from '../assets/carousel_2.jpeg';
 // grid grid-cols-1 grid-rows-3 justify-items-center
 export default function HomeCarousel(){
     return (
-        <div className="top-14 h-64 w-full sm:h-[80vh] xl:h-[90vh] bg-clip-content bg-transparent">
+        <div className="top-14 h-64 w-full sm:h-[80vh] sm:w-full xl:h-[90vh] bg-clip-content bg-transparent">
           <Carousel indicators={false} slideInterval={5000} className="overflow-y-clip rounded-none">
           <div className="relative h-full w-full mix-blend-overlay">
             <img src={car_1} alt="..." className="absolute h-full w-full object-cover object-center opacity-50" />

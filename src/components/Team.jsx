@@ -7,7 +7,7 @@ export default function Team() {
       <div id="team">
         <div className="flex justify-center text-center ">
         <FadeInSection>
-          <div className=" text-lime-600 m-3 p-3 text-4xl sm:text-6xl md:text-7xl font-bold">
+          <div className="text-lime-600 m-3 p-3 text-4xl sm:text-6xl md:text-7xl font-bold">
             TEAM
           </div>
           </FadeInSection>
@@ -20,7 +20,7 @@ export default function Team() {
         <FadeInSection>
         <div className="md:flex justify-around ">
           {profiles.map((profile, idx) => (
-            <div className="flex flex-col justify-center items-center p-10">
+            <div className="flex flex-col  justify-center items-center p-10">
               <div className="flex justify-center items-center h-40 w-40 rounded-full bg-lime-600">
                 <img src={profile.imgUrl} alt="..." className="h-40 w-40" />
               </div>
