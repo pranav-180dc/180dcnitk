@@ -6,18 +6,26 @@ import MB from '../assets/MB.png'
 import OM from '../assets/OM.png'
 import FM from '../assets/FM.png'
 import middleSVG from '../assets/middleSVG.png'
+import FadeInSection from '../components/cards/FadeInSection'
 
 
 function OurServices() {
   return (
     <div id="services">
     <div className='flex flex-col justify-center items-center mt-32'>
-    <div className='text-lime-600 text-4xl sm:text-6xl md:text-7xl font-bold p-8 md:p-12'>OUR SERVICES</div>
+    <div className='text-lime-600 text-4xl sm:text-6xl md:text-7xl font-bold p-8 md:p-12'>
+    <FadeInSection>
+    <p>OUR SERVICES</p>
+    </FadeInSection>
+    </div>
     <div className='invisible sm:visible h-2 w-64 md:w-96 rounded-xl bg-clip-content bg-gradient-to-r from-lime-600 to-transparent'></div>
     <div className='px-10 md:px-14 lg:px-28 pt-10 font-extralight text-lg'>
+    <FadeInSection>
     <p className='text-justify text-xl lg:text-2xl'>We are able to support your organization with any challenge it is facing. In addition to developing projects that address your organization's unique challenges, We have also developed special expertise in these six common areas through our work with non-profits globally.</p>
+    </FadeInSection>
     </div>
     </div>
+    <FadeInSection>
     <div className='flex flex-col sm:flex-row px-10 md:px-14 lg:px-28 text-base sm:text-sm lg:text-xl font-semibold text-lime-600'>
         <div className='flex flex-col justify-center items-center basis-1/3 p-2'>
             <div className='flex flex-row p-3 m-5 items-center justify-center bg-white-opac w-full drop-shadow-lg'><img src={MEE} alt="..." className='h-10 w-10'/><p>Market Entry and Expansion</p></div>
@@ -31,6 +39,7 @@ function OurServices() {
             <div className='flex flex-row p-3 m-5 items-center justify-center bg-white-opac w-full drop-shadow-lg'><img src={FM} alt="..." className='h-10 w-10'/><p>Financial Management</p></div>
         </div>
     </div>
+    </FadeInSection>
     </div>
   )
 }
