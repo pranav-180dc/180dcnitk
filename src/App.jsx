@@ -6,6 +6,7 @@ import WhoAreWe from "./components/WhoAreWe";
 import OurServices from "./components/OurServices";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
+import OurClients from "./components/OurClients";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HomeCarousel />
       <WhoAreWe />
       <OurServices />
+      <OurClients />
       <Team />
       <Footer />
     </div>
