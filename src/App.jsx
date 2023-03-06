@@ -7,19 +7,23 @@ import OurServices from "./components/OurServices";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import OurClients from "./components/OurClients";
-
+import {  Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="scroll-smooth">
-      <Nav/>
-      <HomeCarousel />
-      <WhoAreWe />
-      <OurServices />
-      <OurClients />
-      <Team />
-      <Footer />
-    </div>
-  )
+<Router>
+     <div>
+        <Nav />
+        <Switch>
+          <Route path="/" component={HomeCarousel} exact />
+          <Route path="/team" component={Team} exact />
+          <Route path="/clients" component={OurClients} exact/>
+          <Route path="/services" component={OurServices} exact/>
+          <Route path="/whoarewe" component={WhoAreWe} exact/>
+          </Switch>
+        <Footer />
+      </div>
+      </Router>
+  );
 }
 
 export default App;
