@@ -1,7 +1,9 @@
 import React from "react";
 import insta from '../assets/insta.png'
 import linkedIn from '../assets/linkedin.png'
+import mail from '../assets/mail.png'
 import FadeInSection from '../components/cards/FadeInSection'
+
 
 
 export default function Footer() {
@@ -14,8 +16,8 @@ export default function Footer() {
     <FadeInSection>
         <div className="flex flex-col basis-1/2 md:p-3">
             <div><p className="text-xl md:text-4xl lg:text-5xl font-bold text-lime-600">REACH US</p></div>
-            <div><p className="text-xs md:text-lg lg:text-xl font-extralight">nitk@180dc.org</p></div>
-            <div className="flex flex-row"><p className="text-xs md:text-lg lg:text-xl font-normal">We'd</p><p className="text-lime-600 text-xs md:text-lg lg:text-xl font-normal px-1">love to hear</p><p className="text-xs md:text-lg lg:text-xl font-normal"> from you!</p>
+            <div className="flex flex-row justify-start my-2"><img src={mail} alt="..." className="h-7 w-7 m-1"/><p className="text-xs md:text-lg lg:text-xl font-extralight m-1">nitk@180dc.org</p></div>
+            <div className="flex flex-row"><p className="flex flex-row text-xs md:text-lg lg:text-xl font-normal">We'd<div className="text-lime-600 text-xs md:text-lg lg:text-xl font-normal px-1">love to hear</div>from you!</p>
             </div>
             <div>
             <p className="text-xs md:text-lg lg:text-xl font-normal">Please don't hesitate to reach out.</p>

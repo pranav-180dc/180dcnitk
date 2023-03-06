@@ -12,16 +12,18 @@ import FadeInSection from '../components/cards/FadeInSection'
 function OurServices() {
   return (
     <div id="services">
-    <div className='flex flex-col justify-center items-center mt-32'>
+    <div className='flex flex-col justify-center items-center mt-14'>
     <div className='text-lime-600 text-4xl sm:text-6xl md:text-7xl font-bold p-8 md:p-12'>
     <FadeInSection>
     <p>OUR SERVICES</p>
     </FadeInSection>
     </div>
+    <FadeInSection>
     <div className='invisible sm:visible h-2 w-64 md:w-96 rounded-xl bg-clip-content bg-gradient-to-r from-lime-600 to-transparent'></div>
+    </FadeInSection>
     <div className='px-10 md:px-14 lg:px-28 pt-10 font-extralight text-lg'>
     <FadeInSection>
-    <p className='text-justify text-xl lg:text-2xl'>We are able to support your organization with any challenge it is facing. In addition to developing projects that address your organization's unique challenges, We have also developed special expertise in these six common areas through our work with non-profits globally.</p>
+    <p className='text-justify text-xl lg:text-2xl opacity-60'>We are able to support your organization with any challenge it is facing. In addition to developing projects that address your organization's unique challenges, We have also developed special expertise in these six common areas through our work with non-profits globally.</p>
     </FadeInSection>
     </div>
     </div>

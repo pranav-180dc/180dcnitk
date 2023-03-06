@@ -1,9 +1,14 @@
+import Ranjeet from '../assets/Ranjeet.jpg'
+import Rohan from '../assets/Rohan.jpeg'
+import Ankit from '../assets/Ankit.jpg'
+import Rahul from '../assets/Rahul.jpeg'
+
 
 const profiles = [{
     id: 1,
     member: "Ranjeet Sonawane",
     position: "President",
-    imgUrl: "https://drive.google.com/file/d/1k1KXlnEoZekwVPr2AIiILqwchJIxGf-x/view?usp=sharing",
+    imgUrl: Ranjeet,
     bio: {
         line_1: "Incoming Product Analyst at Sprinklr",
         line_2: "Junior Consultant at Brainworks Consultancy",
@@ -14,7 +19,7 @@ const profiles = [{
     id: 2,
     member: "Rohan Sunil",
     position: "Convenor",
-    imgUrl: "https://www.google.com",
+    imgUrl: Rohan,
     bio: {
         line_1: "Intern at TAQA Energy",
         line_2: "Campus Director- UN MCN Millennium Fellowship",
@@ -25,7 +30,7 @@ const profiles = [{
     id: 3,
     member: "Ankit Sandeep",
     position: "Director, Growth & Strat.",
-    imgUrl: "https://www.google.com",
+    imgUrl: Ankit,
     bio: {
         line_1: "Incoming Startegy Associate at PwC US Advisory",
         line_2: "Previosuly a research Intern at IIMB and ISB",
@@ -36,7 +41,7 @@ const profiles = [{
     id: 4,
     member: "Rahul Harikumar",
     position: "Consulting Director",
-    imgUrl: "https://www.google.com",
+    imgUrl: Rahul,
     bio: {
         line_1: "Intern at PwC US Advisory working in the Health Transformation division.",
         line_2: "A social impact enthusiast eager to make a difference in the non-profit sector."
