@@ -40,13 +40,13 @@ return (
           <ul class="flex flex-col mt-4 rounded-lg bg-gray-50 justify-evenly md:flex-row md:space-x-8  md:mt-0 md:text-sm  md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             {navlinks.map((navlink, idx) => (
               <li>
-                <a
-                  href={navlink.link}
+                <Link
+                  to={navlink.link}
                   class="block py-2 pl-3 pr-4  hover:text-lime-700 rounded md:bg-transparent  md:p-0  md:dark:bg-transparent"
                   aria-current="page"
                 >
                   {navlink.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
