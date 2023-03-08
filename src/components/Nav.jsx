@@ -2,6 +2,8 @@ import React from "react";
 // import DC from '../assets/180DC-MONO-STACKED.png';
 import logo from '../assets/logo_nav.png';
 import { navlinks } from "../data/navlinks";
+import { Link } from "react-router-dom";
+
 export default function Nav(){
 return (
   <div className="navbar">
@@ -44,6 +46,7 @@ return (
                   to={navlink.link}
                   class="block py-2 pl-3 pr-4  hover:text-lime-700 rounded md:bg-transparent  md:p-0  md:dark:bg-transparent"
                   aria-current="page"
+                  target={navlink._target}
                 >
                   {navlink.name}
                 </Link>
