@@ -22,7 +22,6 @@ export default function ContactUs() {
             <div>
             <p className="text-xs md:text-lg lg:text-xl font-normal">Please don't hesitate to reach out.</p>
             </div>
-
         </div>
         </FadeInSection>
         <div className="basis-1/2">
