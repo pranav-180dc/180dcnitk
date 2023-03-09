@@ -23,16 +23,18 @@ function OurClients() {
             <ClientCard 
                 name="Nostos Homes"
                 imgPath = {nostosHomes}
-                w1="Digital Presence, Positioning, Innovative ways of Fundraising."
-                w2="Fundraise strategically."
-                w3="Resource utilisation and created a more suitable foundation for fundraising efforts."
+                w1="Optimised resource utilisation"
+                w2="Fundraising strategies"
+                w3="Database of potential sources/organisations"
+                w4="Both national and international outreach."
             />
             <ClientCard 
                 name="Lal10"
                 imgPath = {lal10}
-                w1="Increase their international customer base and visibility."
-                w2="Improve and optimize both the demand side and supply side of the business."
-                w3="Conducted peer benchmarking, SEO Optimisation"
+                w1="Peer Benchmarking"
+                w2="Seo Optimisation"
+                w3="International customer acquisiton strategies"
+                w4="Supply demand analysis"
             />
             <ClientCard 
                 name="Wakao Foods"
@@ -40,6 +42,7 @@ function OurClients() {
                 w1="Increase their international customer base and visibility."
                 w2="Improve and optimize both the demand side and supply side of the business."
                 w3="Conducted peer benchmarking, SEO Optimisation"
+                w4="Something"
             />
             <ClientCard 
                 name="TFI"
@@ -47,6 +50,7 @@ function OurClients() {
                 w1="Increase their international customer base and visibility."
                 w2="Improve and optimize both the demand side and supply side of the business."
                 w3="Conducted peer benchmarking, SEO Optimisation"
+                w4="Something"
             />
       </div>
       

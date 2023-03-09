@@ -11,10 +11,11 @@ function ClientCard(props){
             <p className='m-2 font-extralight text-2xl opacity-60'>{props.name}</p>
             </div>
             <div className='absolute justify-center items-center w-full h-full bg-white -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all delay-200'>
-                <ul className='flex flex-col justify-center items-center p-12 font-extralight text-xs opacity-60 list-disc'>
+                <ul className='flex flex-col justify-center p-8  font-extralight text-xs opacity-60 list-disc'>
                 <li>{props.w1}</li>
                 <li>{props.w2}</li>
                 <li>{props.w3}</li>
+                <li>{props.w4}</li>
                 </ul>
             </div>
         </div>
