@@ -1,5 +1,4 @@
 import React from "react";
-// import DC from '../assets/180DC-MONO-STACKED.png';
 import logo from '../assets/logo_nav.png';
 import { navlinks } from "../data/navlinks";
 import { Link } from "react-router-dom";

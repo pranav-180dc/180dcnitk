@@ -2,18 +2,18 @@ import React from "react";
 import insta from '../assets/insta.png'
 import linkedIn from '../assets/linkedin.png'
 import mail from '../assets/mail.png'
-import FadeInSection from '../components/cards/FadeInSection'
+// import FadeInSection from '../components/cards/FadeInSection'
 
 
 
 export default function Footer() {
     return (
-   <div id="footer">
-   <FadeInSection>
+   <footer id="footer" className="bottom-0">
+   
     <hr class="h-0.5 my-6 bg-lime-600 border-0 dark:bg-lime-700"/>
-    </FadeInSection>
+    
     <div className="flex flex-row justify-center p-5 m-5">
-    <FadeInSection>
+    
         <div className="flex flex-col basis-1/2 md:p-3">
             <div><p className="text-xl md:text-4xl lg:text-5xl font-bold text-lime-600">REACH US</p></div>
             <div className="flex flex-row justify-start my-2"><img src={mail} alt="..." className="h-7 w-7 m-1"/><p className="text-xs md:text-lg lg:text-xl font-extralight m-1">nitk@180dc.org</p></div>
@@ -24,10 +24,10 @@ export default function Footer() {
             </div>
 
         </div>
-        </FadeInSection>
+        
         <div className="basis-1/2">
         </div>
-        <FadeInSection>
+        
         <div className="flex flex-col md:flex-row md:justify-end basis-1/3 md:basis-1/2">
         <div className="flex flex-row h-max items-center md:px-4">
             <div className="items-center justify-center">
@@ -39,8 +39,8 @@ export default function Footer() {
             </div>
             </div>
         </div>
-        </FadeInSection>
+        
     </div> 
-   </div>
+   </footer>
     )
 }
