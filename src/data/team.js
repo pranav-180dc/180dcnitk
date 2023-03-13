@@ -67,7 +67,7 @@ const profiles = [{
     position: "Consulting Director",
     imgUrl: Rahul,
     bio: {
-        line_1: "Intern at PwC US Advisory working in the Health Transformation division.",
+        line_1: "Intern at PwC US Advisory .",
         line_2: "A social impact enthusiast eager to make a difference in the non-profit sector."
     } 
 },
