@@ -2,10 +2,13 @@ import React from "react";
 import {profiles,advisors,consultants,Designers,Developers} from '../data/team';
 import FadeInSection from '../components/cards/FadeInSection'
 import { Card } from "flowbite-react";
-
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 export default function Team() {
     return (
+      
       <div id="team">
+        <Nav/>
         <div className="flex flex-col justify-center items-center text-center ">
           <FadeInSection>
             <div className="text-lime-600 p-8 md:p-12 text-6xl md:text-8xl font-bold">
@@ -118,7 +121,7 @@ export default function Team() {
             ))}
           </div>
         </FadeInSection>
-        
+        <Footer/>
       </div>
 
       
