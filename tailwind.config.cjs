@@ -9,6 +9,10 @@ module.exports = {
     extend: {
       colors: {
         'white-opac': '#E6E6E6',
+        'light-black': '#636363',
+      },
+      backgroundImage: {
+        'wiggly-lines': "url('../src/assets/wigglyLines.png')",
       },
     },
   },

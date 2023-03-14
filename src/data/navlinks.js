@@ -1,7 +1,7 @@
 export const navlinks = [
-    { name: "Home", link: "#home" },
-    { name: "About", link: "#about" },
-    { name: "Services", link: "#services" },
-    { name: "Team", link: "#team" },
-    { name: "Contact", link: "#contact" },
+    { name: "Home", link: "/", _target:"_self" },
+    { name: "About", link: "/about", _target:"_blank" },
+    { name: "Services", link: "/services", _target:"_blank" },
+    { name: "Team", link: "/team", _target:"_blank" },
+    { name: "Contact", link: "/contact", _target:"_blank" },
   ];
