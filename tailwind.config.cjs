@@ -14,6 +14,10 @@ module.exports = {
       backgroundImage: {
         'wiggly-lines': "url('../src/assets/wigglyLines.png')",
       },
+      fontFamily:{
+        'title': ['Montserrat'],
+        'content': ['Open Sans'],
+      },
     },
   },
   plugins: [require('flowbite/plugin')],

@@ -5,7 +5,7 @@ import FadeInSection from "./FadeInSection"
 function ClientCard(props){
     return(
         <FadeInSection>
-        <div className='flex flex-col bg-white h-56 w-56 justify-center items-center rounded-lg shadow-xl group hover:scale-110 transition-all delay-200 relative overflow-hidden m-5 md:m-10 lg:m-14'>
+        <div className='flex flex-col bg-white h-56 w-56 font-content justify-center items-center rounded-lg shadow-xl group hover:scale-110 transition-all delay-200 relative overflow-hidden m-5 md:m-10 lg:m-14'>
             <div className='flex flex-col justify-center items-center w-56 h-56 rounded-lg'>
             <img src={props.imgPath} alt="..." className='h-32 w-32 m-2'/>
             <p className='m-2 font-extralight text-2xl opacity-60'>{props.name}</p>

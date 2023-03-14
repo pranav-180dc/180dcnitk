@@ -12,7 +12,7 @@ export default function Footer() {
    
     <hr class="h-0.5 my-6 bg-lime-600 border-0 dark:bg-lime-700"/>
     
-    <div className="flex flex-row justify-center p-5 m-5">
+    <div className="flex flex-row justify-center font-title p-5 m-5">
     
         <div className="flex flex-col basis-1/2 md:p-3">
             <div><p className="text-xl md:text-4xl lg:text-5xl font-bold text-lime-600">REACH US</p></div>
