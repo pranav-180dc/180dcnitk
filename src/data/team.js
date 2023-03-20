@@ -155,8 +155,8 @@ const consultants = [{
 },
 {
     id: 12,
-    member: "Criss Mendonca",
-    imgUrl: Mohan,
+    member: "Onkar Ray",
+    imgUrl: Onkar,
  
 },
 {
@@ -196,18 +196,19 @@ const consultants = [{
  
 },
 ]
-const Designers= [{
-    id: 1,
-    member: "Pavan M",
-    imgUrl: Ranjeet,
+ const Designers= [
+//   {
+//     id: 1,
+//     member: "Pavan M",
+//     imgUrl: Ranjeet,
 
-},
-{
-    id: 2,
-    member: "Kaveen S",
-    imgUrl: Ranjeet,
+// },
+// {
+//     id: 2,
+//     member: "Kaveen S",
+//     imgUrl: Ranjeet,
 
-},
+// },
 {
     id: 3,
     member: "Pratibha B",
@@ -240,12 +241,5 @@ const Developers= [{
     imgUrl:Tarun,
 
 },
-{
-    id: 3,
-    member: "Pratibha B",
-    imgUrl: Ranjeet,
-
-},
-
 ]
 export {profiles,advisors,consultants,Designers,Developers};
