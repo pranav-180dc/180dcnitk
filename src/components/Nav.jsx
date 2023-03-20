@@ -7,6 +7,7 @@ export default function Nav() {
     const [navbar, setNavbar] = useState(false);
 
     return (
+        <div>
         <nav className="w-full bg-white shadow">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
@@ -76,6 +77,8 @@ export default function Nav() {
                 </div>
             </div>
         </nav>
+        <hr className="w-full h-1 bg-lime-600"></hr>
+        </div>
     );
 }
 
