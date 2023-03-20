@@ -19,7 +19,7 @@ function Services() {
     <p class="text-3xl md:text-6xl lg:text-7xl text-lime-600 font-bold font-title">SERVICES</p>
   </div>
   <div>
-    <div class=" p-8 mr-6 ml-6 grid md:grid-cols-2 lg:grid-cols-3 grid-col-1 gap-12">
+    <div class="sm:p-4 md:p-8 mx-2 grid md:grid-cols-2 lg:grid-cols-3 grid-col-1 gap-12">
       <div class=" px-2 py-8  bg-lime-500 shadow-2xl shadow-gray-400 rounded-lg  ">
         <div class=" py-8 flex item-center justify-center hover:scale-125 transition-all delay-150 ">
           <img class=" h-40 w-40" src={meae} alt="ERROR" />
