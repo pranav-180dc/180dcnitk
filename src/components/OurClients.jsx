@@ -11,14 +11,12 @@ import ClientCard from './cards/ClientCard';
 function OurClients() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="fade-in-text flex flex-col justify-center items-center p-8 mt-28 md:p-12 basis-1/2 subpixel-antialiased text-4xl sm:text-6xl md:text-7xl font-bold text-lime-600">
+      <div className="fade-in-text flex flex-col justify-center items-center p-8 mt-28 md:p-12 basis-1/2 subpixel-antialiased text-4xl sm:text-6xl md:text-7xl font-bold font-title text-lime-600">
         <FadeInSection>
           <p>OUR CLIENTS</p>
         </FadeInSection>
       </div>
-      <FadeInSection>
-        <div className="invisible sm:visible h-2 w-64 md:w-96 rounded-xl bg-clip-content bg-gradient-to-r from-lime-600 to-transparent"></div>
-      </FadeInSection>
+
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
             <ClientCard 
                 name="Nostos Homes"
