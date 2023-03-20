@@ -20,7 +20,7 @@ import Pratibha from '../assets/Pictures/Pratibha.jpeg';
 import Ranjeet from '../assets/Pictures/Ranjeet.jpg';
 import Rohan from '../assets/Pictures/Rohan.jpeg';
 import Rahul from '../assets/Pictures/Rahul.jpeg';
-import Rakshith from '../assets/Pictures/Rakshith.jpg';
+// import Rakshith from '../assets/Pictures/Rakshith.jpg';
 import Rakshith_N from '../assets/Pictures/Rakshith_N.jpg';
 import Romit from '../assets/Pictures/Romit.jpg';
 import Shivansh from '../assets/Pictures/Shivansh.jpg';
@@ -212,12 +212,6 @@ const consultants = [{
     id: 21,
     member: "Pahal Shrivastava",
     imgUrl: Pahal,
- 
-},
-{
-    id: 22,
-    member: "Rakshit",
-    imgUrl: Rakshith,
  
 },
 ]
