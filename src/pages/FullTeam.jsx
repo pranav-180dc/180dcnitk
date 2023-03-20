@@ -26,7 +26,7 @@ export default function Team() {
           </FadeInSection>
         </div>
         <FadeInSection>
-        <div className="flex justify-center items-center">
+        <div className="hidden sm:flex justify-center items-center">
           <div className="flex flex-row p-4 m-4">
             <a href="#execcore" onClick={(e) => handleClick(e, 'execcore')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2 border-l-2 rounded-l-md"><div className="p-4 text-lg font-title font-medium">Executive Core</div></a>
             <a href="#advisors" onClick={(e) => handleClick(e, 'advisors')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2"><div className="p-4 text-lg font-title font-medium">Advisors</div></a>
