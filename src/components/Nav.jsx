@@ -63,7 +63,7 @@ export default function Nav() {
               <li>
                 <Link
                   to={navlink.link}
-                  class="flex flex-col py-2 px-3 justify-evenly text-slate-700 hover:text-lime-700 rounded md:bg-transparent  md:p-8   md:dark:bg-transparent"
+                  class="flex flex-col py-2 px-3 justify-evenly text-slate-400 hover:text-lime-800 rounded md:bg-transparent  md:p-8 md:text-xl  md:dark:bg-transparent"
                   aria-current="page"
                   target={navlink._target}
                 >
