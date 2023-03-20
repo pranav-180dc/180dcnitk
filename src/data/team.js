@@ -191,31 +191,31 @@ const consultants = [{
  
 },
 {
-    id: 19,
+    id: 18,
     member: "Devvrat Ashtaputre",
     imgUrl: Devvrat_Ashtaputre,
  
 },
 {
-    id: 20,
+    id: 19,
     member: "Mahesh Alluri",
     imgUrl: Mahesh_Alluri,
  
 },
 {
-    id: 21,
+    id: 20,
     member: "Srishti Madhusudan",
     imgUrl: Srishti,
  
 },
 {
-    id: 22,
+    id: 21,
     member: "Pahal Shrivastava",
     imgUrl: Pahal,
  
 },
 {
-    id: 23,
+    id: 22,
     member: "Rakshit",
     imgUrl: Rakshith,
  
