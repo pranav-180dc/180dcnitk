@@ -16,7 +16,7 @@ function Services() {
   <Nav />
     
   <div class="text-center mx-10 my-10 px-8 py-8">
-    <p class="text-7xl  text-lime-600 font-bold font-title">SERVICES</p>
+    <p class="text-3xl md:text-6xl lg:text-7xl text-lime-600 font-bold font-title">SERVICES</p>
   </div>
   <div>
     <div class=" p-8 mr-6 ml-6 grid md:grid-cols-2 lg:grid-cols-3 grid-col-1 gap-12">
