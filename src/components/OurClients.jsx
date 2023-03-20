@@ -43,7 +43,7 @@ function OurClients() {
                 w4="Something"
             />
             <ClientCard 
-                name="TFI"
+                name="Teach For India"
                 imgPath = {TFI}
                 w1="Increase their international customer base and visibility."
                 w2="Improve and optimize both the demand side and supply side of the business."
