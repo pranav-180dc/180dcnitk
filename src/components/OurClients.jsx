@@ -24,7 +24,7 @@ function OurClients() {
                 w1="Optimised resource utilisation"
                 w2="Fundraising strategies"
                 w3="Database of potential sources/organisations"
-                w4="Both national and international outreach."
+                w4="Both national and international outreach"
             />
             <ClientCard 
                 name="Lal10"
@@ -37,18 +37,18 @@ function OurClients() {
             <ClientCard 
                 name="Wakao Foods"
                 imgPath = {wakaoFoods}
-                w1="Increase their international customer base and visibility."
-                w2="Improve and optimize both the demand side and supply side of the business."
-                w3="Conducted peer benchmarking, SEO Optimisation"
-                w4="Something"
+                w1="SEO optimization"
+                w2="Email Marketing"
+                w3=" Social media marketing on WhatsApp/LinkedIn/Instagram"
+                w4="Brand publicity and sales strategies"
             />
             <ClientCard 
                 name="Teach For India"
                 imgPath = {TFI}
-                w1="Increase their international customer base and visibility."
-                w2="Improve and optimize both the demand side and supply side of the business."
-                w3="Conducted peer benchmarking, SEO Optimisation"
-                w4="Something"
+                w1="Conceptualized campus ambassador model"
+                w2="Outreach channel analysis"
+                w3="Rubric for institute approach"
+                w4="Streamlined recruitment process"
             />
       </div>
       
