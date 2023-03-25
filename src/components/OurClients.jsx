@@ -39,7 +39,7 @@ function OurClients() {
                 imgPath = {wakaoFoods}
                 w1="SEO optimization"
                 w2="Email Marketing"
-                w3=" Social media marketing on WhatsApp/LinkedIn/Instagram"
+                w3="Social media marketing on WhatsApp/LinkedIn/Instagram"
                 w4="Brand publicity and sales strategies"
             />
             <ClientCard 
