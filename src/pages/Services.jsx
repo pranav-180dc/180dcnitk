@@ -46,7 +46,7 @@ function Services() {
           <img class=" h-40 w-40" src={im} alt="ERROR" />
         </div>
 
-        <p class="text-white  p-4 font-bold text-4xl text-center ">Impact Mesurment</p>
+        <p class="text-white  p-4 font-bold text-4xl text-center ">Impact Measurement</p>
 
       </div>
       <div class=" px-2 py-8   bg-lime-500 shadow-2xl shadow-gray-400 rounded-lg  ">
@@ -79,7 +79,7 @@ function Services() {
           <h1 class=" gap-2 p-6 font-bold text-2xl md:flex md:text-4xl lg:flex lg:text-5xl text-light-black"> How can <p class="text-lime-600"> we help</p> you ?</h1>
           <p class="px-6 p-4 text-s  md:text-xl lg:text-2xl text-light-black ">If your organization is interested in what we offer, please fill out the form below.</p>
           <p class="px-6 p-4 text-s md:text-xl lg:text-2xl text-light-black "> You have any questions, email <a href="https://180dc.org/branch/nitk/"
-            class="text-lime-600 font-semibold hover:underline">engagements.nitk@180dc.org</a>
+            class="text-lime-600 font-semibold hover:underline">nitk@180dc.org</a>
           </p>
 
           <form class=" p-6 my-8 grid grid-rows md:flex  md:gap-6 lg:flex flex-auto gap-14 ">

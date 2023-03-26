@@ -15,8 +15,8 @@ export default function Footer() {
     <div className="flex flex-row justify-center font-title p-5 m-5">
     
         <div className="flex flex-col basis-1/2 md:p-3">
-            <div><p className="text-xl md:text-4xl lg:text-5xl font-bold text-lime-600">REACH US</p></div>
-            <div className="flex flex-row justify-start my-2"><img src={mail} alt="..." className="h-7 w-7 m-1"/><p className="text-xs md:text-lg lg:text-xl font-extralight m-1">nitk@180dc.org</p></div>
+            <div><p className="text-xl md:text-4xl lg:text-5xl font-bold text-lime-600">CONTACT US</p></div>
+            <div className="flex flex-row justify-start items-center my-2"><img src={mail} alt="..." className="h-7 w-7 m-1"/><p className="text-xs md:text-lg lg:text-xl font-extralight m-1">nitk@180dc.org</p></div>
             <div className="flex flex-row w-max"><p className="flex flex-row text-xs md:text-lg lg:text-xl font-normal">We'd<span className="text-lime-600 text-xs md:text-lg lg:text-xl font-normal px-1">love to hear</span>from you!</p>
             </div>
             <div>
@@ -34,8 +34,8 @@ export default function Footer() {
             <p className="text-xs md:text-lg font-extralight lg:text-xl">Follow us for more:</p>
             </div>
             <div className="flex flex-row">
-            <a href="https://instagram.com/180dcnitk?igshid=YmMyMTA2M2Y=" target="_blank"><img src={insta} alt="..." className="h-6 w-6 md:h-14 md:w-14 md:mx-2"/></a>
-            <a href="https://in.linkedin.com/company/180dc-nitk" target="_blank"><img src={linkedIn} alt="..." className="h-6 w-6 md:h-14 md:w-14 md:mx-2"/></a>
+            <a href="https://instagram.com/180dcnitk?igshid=YmMyMTA2M2Y=" target="_blank"><img src={insta} alt="..." className="h-9 w-9 md:h-14 md:w-14 md:mx-2"/></a>
+            <a href="https://in.linkedin.com/company/180dc-nitk" target="_blank"><img src={linkedIn} alt="..." className="h-9 w-9 md:h-14 md:w-14 md:mx-2"/></a>
             </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ function OurServices() {
     </div>
     <div className='px-10 md:px-14 md:py-8 lg:px-28 pt-10 font-extralight font-content text-lg'>
     <FadeInSection>
-    <p className='text-justify text-xl lg:text-2xl opacity-60'>We are able to support your organization with any challenge it is facing. In addition to developing projects that address your organization's unique challenges, We have also developed special expertise in these six common areas through our work with non-profits globally.</p>
+    <p className='text-xl lg:text-2xl opacity-60'>We are able to support your organization with any challenge it is facing. In addition to developing projects that address your organization's unique challenges, We have also developed special expertise in these six common areas through our work with non-profits globally.</p>
     </FadeInSection>
     </div>
     </div>

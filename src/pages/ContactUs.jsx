@@ -4,12 +4,14 @@ import linkedIn from '../assets/linkedin.png'
 import mail from '../assets/mail.png'
 import FadeInSection from '../components/cards/FadeInSection'
 import { Label,TextInput,Checkbox,Button,Textarea } from "flowbite-react";
+import Nav from "../components/Nav";
 
 
 export default function ContactUs() {
     return (
         <section id="contact">
        <section class="bg-white dark:bg-gray-900">
+       <Nav />
   <div class="py-4 lg:py-6 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-lime-600 ">Contact Us</h2>
       {/* <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p> */}
