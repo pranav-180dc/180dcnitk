@@ -12,8 +12,8 @@ import FadeInSection from '../components/cards/FadeInSection'
 function OurServices() {
   return (
     <div id="services">
-    <div className='flex flex-col justify-center items-center mt-8'>
-    <div className='text-lime-600 text-4xl sm:text-6xl md:text-7xl font-title font-bold p-8 md:p-8'>
+    <div className='flex flex-col justify-center items-center mt-4'>
+    <div className='text-lime-600 text-4xl sm:text-6xl md:text-7xl font-title font-bold pt-8 md:p-8'>
     <FadeInSection>
     <p>OUR SERVICES</p>
     </FadeInSection>

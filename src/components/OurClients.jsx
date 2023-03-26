@@ -10,14 +10,14 @@ import ClientCard from './cards/ClientCard';
 
 function OurClients() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="fade-in-text flex flex-col justify-center items-center p-8 mt-28 md:p-12 basis-1/2 subpixel-antialiased text-4xl sm:text-6xl md:text-7xl font-bold font-title text-lime-600">
+    <div className="flex flex-col justify-center items-center mt-4">
+      <div className="fade-in-text flex flex-col justify-center items-center pt-8 md:p-12 basis-1/2 subpixel-antialiased text-4xl sm:text-6xl md:text-7xl font-bold font-title text-lime-600">
         <FadeInSection>
           <p>OUR CLIENTS</p>
         </FadeInSection>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+      <div className='grid grid-cols-1 mt-4 md:grid-cols-2 lg:grid-cols-4'>
             <ClientCard 
                 name="Nostos Homes"
                 imgPath = {nostosHomes}

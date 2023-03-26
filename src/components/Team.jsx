@@ -7,15 +7,15 @@ import FadeInSection from '../components/cards/FadeInSection'
 export default function Team() {
     return (
       <div id="team">
-        <div className="flex flex-col justify-center items-center text-center mt-28">
+        <div className="flex flex-col justify-center items-center text-center mt-4">
           <FadeInSection>
-            <div className="text-lime-600 font-title p-8 md:p-8 text-4xl sm:text-6xl md:text-7xl font-bold">
+            <div className="text-lime-600 font-title pt-8 md:p-8 text-4xl sm:text-6xl md:text-7xl font-bold">
               TEAM
             </div>
           </FadeInSection>
         </div>
         <FadeInSection>
-          <div className="flex justify-center font-title p-3 text-4xl sm:text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-700 to-lime-200">
+          <div className="flex justify-center font-title pt-8 text-4xl sm:text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-700 to-lime-200">
             Executive Core
           </div>
         </FadeInSection>
