@@ -58,7 +58,7 @@ export default function Team() {
       </div>
       <div className="md:hidden flex flex-wrap justify-around p-3">
             {profiles.map((profile, idx) => (
-              <div className=" flex flex-col  border-2 border-lime-600  hover:scale-[1.05] transition-all delay-150 justify-center text-4xl items-center  p-12">
+              <div className=" flex flex-col  hover:scale-[1.05] transition-all delay-150 justify-center text-4xl items-center  p-12">
                 <div className="flex justify-center border border-lime-600 h-40 w-40 items-center rounded-full  object-center object-cover shadow-2xl">
                   <img src={profile.imgUrl} alt="..." className="h-30 w-30 rounded-full object-contain" />
                 </div>
@@ -88,7 +88,7 @@ export default function Team() {
       </div>
       <div className="md:hidden flex flex-wrap justify-around p-3">
             {profiles.map((profile, idx) => (
-              <div className=" flex flex-col  border-2 border-lime-500  hover:scale-[1.05] transition-all delay-150  justify-center text-4xl items-center  p-12">
+              <div className=" flex flex-col    hover:scale-[1.05] transition-all delay-150  justify-center text-4xl items-center  p-12">
                 <div className="flex justify-center items-center h-40 w-40 rounded-full bg-lime-600 border border-stone-300 object-center object-cover shadow-2xl">
                   <img src={profile.imgUrl} alt="..." className="h-30 w-30 rounded-full object-contain" />
                 </div>
