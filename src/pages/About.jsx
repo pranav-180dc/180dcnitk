@@ -31,7 +31,7 @@ function About() {
       <div className="relative h-64 w-full sm:h-[23vh] sm:w-full xl:h-[53vh] object-contain mix-blend-overlay">
             <img src={car_2} alt="..." className="absolute h-full w-full object-cover object-center opacity-30" />
             <div className="absolute -z-10 bg-gradient-to-b from-stone-800 via-black to-black h-full w-full" />
-            <p className='flex justify-center items-center h-full text-lime-600 underline text-3xl md:text-5xl lg:text-8xl shadow-2xl font-extrabold font-title relative'>About Us</p>
+            <p className='flex justify-center items-center h-full text-lime-600 text-3xl md:text-5xl lg:text-8xl shadow-2xl font-extrabold font-title relative'>About Us</p>
       </div>
 
 

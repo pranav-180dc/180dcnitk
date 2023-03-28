@@ -9,11 +9,11 @@ export default function Nav() {
     return (
         <div>
         <nav className="w-full bg-white shadow">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+            <div className=" justify-evenly px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-0">
                 <div>
                     <div className="flex items-center justify-between basis-1/6 py-3 md:py-5 md:block">
                     <a href="#" class="flex items-center">
-          <img src={logo} class="h-14 sm:w-28" alt="180DC Logo" />
+          <img src={logo} class="h-20 sm:w-40" alt="180DC Logo" />
         </a>
                         <div className="md:hidden">
                             <button
@@ -59,12 +59,12 @@ export default function Nav() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                    <ul class="flex flex-col mt-4 rounded-lg bg-gray-50 justify-evenly px-4 md:flex-row md:space-x-8  md:mt-0 md:text-sm  md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                    <ul class="flex flex-col font-title mt-4 rounded-lg bg-gray-50 justify-evenly px-4 md:flex-row md:space-x-8  md:mt-0 md:text-sm  md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             {navlinks.map((navlink, idx) => (
               <li>
                 <Link
                   to={navlink.link}
-                  class="flex flex-col py-2 px-3 justify-evenly text-slate-400 hover:text-lime-800 rounded md:bg-transparent  md:p-8 md:text-xl  md:dark:bg-transparent"
+                  class="flex flex-col py-2 px-3 justify-evenly text-black text-opacity-60 hover:text-lime-600 rounded md:bg-transparent  md:p-8 md:text-xl  md:dark:bg-transparent"
                   aria-current="page"
                   target={navlink._target}
                 >
