@@ -29,7 +29,6 @@ export default function Team() {
         <div className="hidden sm:flex justify-center items-center">
           <div className="flex flex-row p-4 m-4">
             <a href="#execcore" onClick={(e) => handleClick(e, 'execcore')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2 border-l-2 rounded-l-md"><div className="p-4 text-lg font-title font-medium">Executive Core</div></a>
-            <a href="#advisors" onClick={(e) => handleClick(e, 'advisors')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2"><div className="p-4 text-lg font-title font-medium">Advisors</div></a>
             <a href="#consultants" onClick={(e) => handleClick(e, 'consultants')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2"><div className="p-4 text-lg font-title font-medium">Consultants</div></a>
             <a href="#designers" onClick={(e) => handleClick(e, 'designers')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2"><div className="p-4 text-lg font-title font-medium">Designers</div></a>
             <a href="#developers" onClick={(e) => handleClick(e, 'developers')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2 border-r-2 rounded-r-md"><div className="p-4 text-lg font-title font-medium">Developers</div></a>
@@ -70,36 +69,7 @@ export default function Team() {
           </div>
      
         </FadeInSection>
-        <FadeInSection>
-        <div id="advisors" className="text-lime-600 p-8 md:p-12 text-center text-4xl md:text-7xl font-bold font-title">
-             Our Advisors
-            </div>
-        </FadeInSection>
-        <FadeInSection>
-          <div className="hidden md:flex  md:flex-row md:justify-center md:item-center  md:text-center ">
-        {profiles.map((profile, idx) => (
-      <div className="text-lime-500 bg-slate-200 border-2 border-lime-600  hover:scale-[1.05] transition-all delay-150  bg-opacity-25 mx-9 rounded-lg  shadow dark:bg-gray-800 dark:border-gray-700">
-          <img class="rounded-t-lg" src={profile.imgUrl} alt="" />
-      <div class="px-3  text-center font-title">
-          <h5 class="mb-2 text-2xl text-slate-600 font-bold ">{profile.member}</h5>
-       </div>
-      </div>
-        ))}
-      </div>
-      <div className="md:hidden flex flex-wrap justify-around p-3">
-            {profiles.map((profile, idx) => (
-              <div className=" flex flex-col    hover:scale-[1.05] transition-all delay-150  justify-center text-4xl items-center  p-12">
-                <div className="flex justify-center items-center h-40 w-40 rounded-full bg-lime-600 border border-stone-300 object-center object-cover shadow-2xl">
-                  <img src={profile.imgUrl} alt="..." className="h-30 w-30 rounded-full object-contain" />
-                </div>
-                <div className="flex justify-center items-center text-center text-black opacity-60 font-semibold font-title text-2xl">
-                  {profile.member}
-                </div>
-              </div>
-            ))}
-          </div>
-        </FadeInSection>
-        <div className="flex flex-col justify-center items-center text-center ">
+            <div className="flex flex-col justify-center items-center text-center ">
           <FadeInSection>
             <div id="consultants" className="text-lime-600 p-8 md:p-12 text-4xl md:text-7xl font-title font-bold">
               Consultants

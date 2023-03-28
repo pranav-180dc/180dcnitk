@@ -7,6 +7,7 @@ import Team from "./components/Team";
 import Footer from "./components/Footer";
 import OurClients from "./components/OurClients";
 import Navbar from "./components/Nav";
+import OurAdvisors from "./components/OurAdvisors";
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <WhoAreWe />
         <OurServices />
         <OurClients />
+        <OurAdvisors />
         <Team />
         <Footer />
     </div>

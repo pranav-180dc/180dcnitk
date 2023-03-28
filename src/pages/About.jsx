@@ -47,7 +47,7 @@ function About() {
           </div>
           <div className='flex mt-4'>
             <p>180DC provides high-quality business solutions to social impact organizations, with the help of over 10,000 carefully selected and professionally trained student volunteers from across the globe.
-               Learn More</p>
+               </p>
           </div>
         </div>
       </div>
@@ -78,12 +78,12 @@ function About() {
         </div>
         <div className='flex flex-col p-2 justify-between basis-2/3 font-light font-content text-sm md:text-lg opacity-60 lg:text-3xl text-justify'>
           <div className='flex mb-4'>
-            <p>180DC is the world' s largest consultancy for non-profits and social enterprises.
+            <p>180DC NITK provides high-quality business solutions to social impact/ Non-Profit organizations and Startups, with the help of over 50 hand-picked student volunteers from NITK.
             </p>
           </div>
           <div className='flex mt-4'>
-            <p>180DC provides high-quality business solutions to social impact organizations, with the help of over 10,000 carefully selected and professionally trained student volunteers from across the globe.
-               Learn More</p>
+            <p>NITK ranks number 10 in NIRF rankings with it's 180DC branch members receiving offers by Dalberg, PwC, Deloitte, Sprinklr, and ZS associates.
+At NITK we have a deep rooted impact oriented culture with social initiatives wing in many clubs and multiple recipients of the UN Millenium fellowship.</p>
           </div>
         </div>
       </div>
