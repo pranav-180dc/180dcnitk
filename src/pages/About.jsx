@@ -97,33 +97,33 @@ At NITK we have a deep rooted impact oriented culture with social initiatives wi
 
         <div className='md:h-full md:w-1/2 flex flex-col md:flex-col justify-center items-center'>
           <div className='flex flex-row justify-center items-center m-4'>
-            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>10</div>
+            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>10+</div>
             <div className='flex flex-col justify-center font-bold text-light-black'>
-              <div className='text-xl md:text-5xl relative'>Clients</div>
-              <div className='text-lg md:text-xl relative'>till now</div>
+              <div className='text-xl md:text-5xl relative'>Projects</div>
+              {/* <div className='text-lg md:text-xl relative'>till now</div> */}
             </div>
           </div>
           <div className='flex flex-row justify-center items-center'>
-            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>$9.1m</div>
+            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>10K+</div>
             <div className='flex flex-col justify-center font-bold text-light-black'>
-              <div className='text-xl md:text-5xl relative'>Raised</div>
-              <div className='text-lg md:text-xl relative'>till now</div>
+              <div className='text-xl md:text-5xl relative'>Lives Impacted</div>
+              {/* <div className='text-lg md:text-xl relative'>impacted</div> */}
             </div>
           </div>
         </div>
         <div className='md:h-full md:w-1/2 flex flex-col md:flex-col justify-center items-center'>
         <div className='flex flex-row m-4 justify-center items-center'>
-            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>3</div>
+            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>6+</div>
             <div className='flex flex-col justify-center font-bold text-light-black'>
-              <div className='text-xl md:text-5xl relative'>Continents</div>
-              <div className='text-lg md:text-xl relative'>worldwide</div>
+              <div className='text-xl md:text-5xl relative'>Mentors</div>
+              {/* <div className='text-lg md:text-xl relative'>worldwide</div> */}
             </div>
           </div>
           <div className='flex flex-row justify-center items-center m-4'>
-            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>45</div>
+            <div className='text-lime-600 font-extrabold text-6xl md:text-8xl mr-2'>35+</div>
             <div className='flex flex-col justify-center font-bold text-light-black'>
               <div className='text-xl md:text-5xl relative'>Members</div>
-              <div className='text-lg md:text-xl relative'>in the team</div>
+              {/* <div className='text-lg md:text-xl relative'>in the team</div> */}
             </div>
           </div>
         </div>
