@@ -6,7 +6,8 @@ import Ankit from '../assets/Pictures/Ankit.jpg';
 import Aryan from '../assets/Pictures/Aryan.jpeg';
 import Ayiman_Mohanty from '../assets/Pictures/Ayiman_Mohanty.jpg';
 import Devvrat_Ashtaputre from '../assets/Pictures/Devvrat_Ashtaputre.jpeg';
-import Kunaal from '../assets/Pictures/Kunaal.png';
+import Criss from '../assets/Pictures/Criss.jpg'
+import Kunaal from '../assets/Pictures/Kunaal.jpg';
 import Mahesh_Alluri from '../assets/Pictures/Mahesh_Alluri.jpg';
 import Mohan from '../assets/Pictures/Mohan.jpg';
 import Onkar from '../assets/Pictures/Onkar.jpg';
@@ -16,7 +17,9 @@ import Pranav from '../assets/Pictures/Pranav.jpeg';
 import Mayank from '../assets/Pictures/Mayank.jpeg';
 import Prathamesh from '../assets/Pictures/Prathamesh.jpg';
 import Pratheek from '../assets/Pictures/pratheek.jpeg';
+import Poorna  from '../assets/Pictures/Poorna.jpg';
 import Pratibha from '../assets/Pictures/Pratibha.jpeg';
+import Deva from '../assets/Pictures/Deva.jpg';
 import Ranjeet from '../assets/Pictures/Ranjeet.jpg';
 import Rohan from '../assets/Pictures/Rohan.jpeg';
 import Rahul from '../assets/Pictures/Rahul.jpeg';
@@ -25,8 +28,11 @@ import Rakshith_N from '../assets/Pictures/Rakshith_N.jpg';
 import Romit from '../assets/Pictures/Romit.jpg';
 import Shivansh from '../assets/Pictures/Shivansh.jpg';
 import Srishti from '../assets/Pictures/Srishti.jpeg';
+import Sagnik from '../assets/Pictures/Sagnik.jpg';
 import Sujith from '../assets/Pictures/Sujith.jpg';
+import tejaswini from '../assets/Pictures/tejaswin.jpg'
 import Tarun from '../assets/Pictures/Tarun.jpg';
+import Tijin from '../assets/Pictures/Tijin.webp'
 import Vishnu from '../assets/Pictures/Vishnu.jpeg';
 import Yajat from '../assets/Pictures/Yajat.jpg';
 const profiles = [{
@@ -95,6 +101,35 @@ const advisors =[
         imgUrl:Ankit,
     },
 ]
+const projectManagers = [
+    {
+        id: 1,
+        member: "Prathamesh Dongritot",
+
+        imgUrl: Prathamesh,
+    },
+    {
+        id: 2,
+        member: "Mohan Nayak",
+
+        imgUrl: Mohan,
+    },
+    {
+        id: 3,
+        member: "Pratheek Bhat",
+        imgUrl: Pratheek,
+    },
+    {
+        id: 4,
+        member: "Aaron Shibu",
+        imgUrl: Aaron,
+    },
+    {
+        id: 5,
+        member: "Shivansh Joshi",
+        imgUrl: Shivansh,
+    },
+]
 const consultants = [{
     id: 1,
     member: "Vishnu Radhakrishnan",
@@ -102,8 +137,8 @@ const consultants = [{
 },
 {
     id: 2,
-    member: "Aaron Sibhu",
-    imgUrl:Aaron,
+    member: "Anagha Dileep",
+    imgUrl:Anaghadileep,
 },
 {
     id: 3,
@@ -112,13 +147,13 @@ const consultants = [{
 },
 {
     id: 4,
-    member: "Shivansh Joshi",
-    imgUrl: Shivansh,
+    member: "Devrrat A",
+    imgUrl: Devvrat_Ashtaputre,
 },
 {
     id: 5,
-    member: "Rohan Sunil",
-    imgUrl: Rohan,
+    member: "Srishti Madhusudhan",
+    imgUrl: Srishti,
 
 },
 {
@@ -128,13 +163,13 @@ const consultants = [{
 },
 {
     id: 7,
-    member: "Prathamesh Dongritot",
-    imgUrl: Prathamesh,
+    member: "Aryan Raul",
+    imgUrl: Aryan,
 },
 {
     id: 8,
-    member: "Pratheek Bhat",
-    imgUrl: Pratheek,
+    member: "Criss Mendonca",
+    imgUrl: Criss,
 },
 {
     id: 9,
@@ -144,14 +179,14 @@ const consultants = [{
 },
 {
     id: 10,
-    member: "Mohan Nayak",
-    imgUrl: Mohan,
+    member: "Poorna Chandra",
+    imgUrl: Poorna,
  
 },
 {
     id: 11,
-    member: "Anagha Dileep",
-    imgUrl: Anaghadileep,
+    member: "Tijin A Thomas",
+    imgUrl: Tijin,
  
 },
 {
@@ -180,8 +215,8 @@ const consultants = [{
 },
 {
     id: 16,
-    member: "Aryan Raul",
-    imgUrl: Aryan,
+    member: "R M Deva",
+    imgUrl: Deva,
  
 },
 {
@@ -192,8 +227,8 @@ const consultants = [{
 },
 {
     id: 18,
-    member: "Devvrat Ashtaputre",
-    imgUrl: Devvrat_Ashtaputre,
+    member: "Sagnik Mukherjee",
+    imgUrl: Sagnik,
  
 },
 {
@@ -204,8 +239,8 @@ const consultants = [{
 },
 {
     id: 20,
-    member: "Srishti Madhusudan",
-    imgUrl: Srishti,
+    member: "Tejaswini M",
+    imgUrl: tejaswini,
  
 },
 {
@@ -267,4 +302,4 @@ const Developers= [{
 
 },
 ]
-export {profiles,advisors,consultants,Designers,Developers};
+export {profiles,advisors,projectManagers,consultants,Designers,Developers};
