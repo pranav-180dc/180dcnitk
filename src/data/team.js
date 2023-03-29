@@ -129,31 +129,32 @@ const projectManagers = [
         member: "Shivansh Joshi",
         imgUrl: Shivansh,
     },
+    {
+        id: 6,
+        member: "Vishnu Radhakrishnan",
+        imgUrl: Vishnu,
+    },
+    {
+        id: 7,
+        member: "Anagha Dileep",
+        imgUrl:Anaghadileep,
+    },
+    {
+        id: 8,
+        member: "Devrrat Ashtaputre",
+        imgUrl: Devvrat_Ashtaputre,
+    },
 ]
-const consultants = [{
-    id: 1,
-    member: "Vishnu Radhakrishnan",
-    imgUrl: Vishnu,
-},
-{
-    id: 2,
-    member: "Anagha Dileep",
-    imgUrl:Anaghadileep,
-},
+const consultants = [
 {
     id: 3,
     member: "Romit Shrivastava",
     imgUrl:Romit,
 },
 {
-    id: 4,
-    member: "Devrrat A",
-    imgUrl: Devvrat_Ashtaputre,
-},
-{
     id: 5,
-    member: "Srishti Madhusudhan",
-    imgUrl: Srishti,
+    member: "Criss Mendonca",
+    imgUrl: Criss,
 
 },
 {
@@ -168,8 +169,8 @@ const consultants = [{
 },
 {
     id: 8,
-    member: "Criss Mendonca",
-    imgUrl: Criss,
+    member: "Srishti Madhusudan",
+    imgUrl: Srishti,
 },
 {
     id: 9,
@@ -179,8 +180,8 @@ const consultants = [{
 },
 {
     id: 10,
-    member: "Poorna Chandra",
-    imgUrl: Poorna,
+    member: "Kunaal Joshi",
+    imgUrl: Kunaal,
  
 },
 {
@@ -191,20 +192,20 @@ const consultants = [{
 },
 {
     id: 12,
-    member: "Onkar Ray",
-    imgUrl: Onkar,
+    member: "Akshay Srivastava",
+    imgUrl: Akshay,
  
 },
 {
     id: 13,
-    member: "Kunaal Joshi",
-    imgUrl: Kunaal,
+    member: "Poorna Chandra ",
+    imgUrl: Poorna,
  
 },
 {
     id: 14,
-    member: "Akshay Srivastava",
-    imgUrl: Akshay,
+    member: "Onkar Ray",
+    imgUrl: Onkar,
  
 },
 {
