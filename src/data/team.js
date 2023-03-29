@@ -63,7 +63,7 @@ const profiles = [{
 {
     id: 3,
     member: "Ankit Sandeep",
-    position: "Director, Growth & Strat.",
+    position: "Director, Growth & Strategy",
     imgUrl: Ankit,
     linkedin: "https://www.linkedin.com/in/ankit-sandeep/",
     bio: {

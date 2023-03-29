@@ -3,16 +3,16 @@ import FadeInSection from '../components/cards/FadeInSection'
 import Akshita from '../assets/Pictures/Akshita.jpeg';
 import Achut from '../assets/Pictures/Achut.jpeg';
 import Dipankar from '../assets/Pictures/Dipankar.jpeg';
-import linkedIn from '../assets/linkedIn.png';
+import linkedIn from '../assets/linkedin.png';
 
 function AdvisorCard(props){
     return(
         <div className='w-56 hover:scale-110 transition-all delay-150'>
-                <div className='hover:bg-lime-600 text-lime-600 hover:text-white shadow-2xl transition-all delay-150 flex flex-col justify-center items-center w-full h-full p-2 border rounded-2xl hover:rounded-t-full'>
-                    <img src={props.Img} alt="..." className='h-44 w-44 m-2 rounded-full outline outline-4 outline-offset-4 outline-lime-600'/>
-                    
-               
-
+                <div className='group hover:bg-lime-600 text-lime-600 hover:text-white shadow-2xl transition-all delay-150 flex flex-col justify-center items-center w-full h-full p-2 border rounded-2xl hover:rounded-t-full'>
+                    <img src={props.Img} alt="..." className='h-44 w-44 m-2  group-hover:blur-[2px] rounded-full outline outline-4 outline-offset-4 outline-lime-600'/>
+                    <div className='h-full w-full absolute bottom-6 group-hover:bottom-[86px] transition-all delay-150 p-2 flex justify-center items-center'>
+                        <a href={props.linkedIn} target="_blank"><img src={linkedIn} alt="..." className='h-10 w-10 '/></a>
+                    </div>
                     <div className='flex justify-center items-center'>
                         <p className='font-title font-bold text-lg'>{props.name}</p>
                        
@@ -25,6 +25,7 @@ function AdvisorCard(props){
                             <li className=''>{props.p3}</li>
                         </ul>
                     </div>
+                    
                 </div>
             </div>
     )
@@ -43,7 +44,7 @@ function OurAdvisors() {
             <AdvisorCard 
                 Img={Akshita}
                 name="Akshita Kaushik"
-                linkedIn="https://www.linkedin.com/in/akshita-kaushik-0a8b3a1a1/"
+                linkedIn="https://www.linkedin.com/in/akshita-kaushik-ak95//"
                 p1 = "Associate consultant at Sattva Consulting, Teach For India Fellow."
                 p2="Co-founded Community Research lab."
                 p3="Curriculum designer at Mastree (by Unacademy)."
@@ -53,7 +54,7 @@ function OurAdvisors() {
             <AdvisorCard 
                 Img={Dipankar}
                 name="Dipankar Maganty"
-                linkedIn="https://www.linkedin.com/in/akshita-kaushik-0a8b3a1a1/"
+                linkedIn="https://www.linkedin.com/in/dipankarmaganty/"
                 p1 = "NIT-K Surathkal and IIM- Ahemdabad Alum."
                 p2="Expertise in Pharma, Consumer Goods and Automotive Sector."
                 p3="Current - Principal @Kearney."
@@ -63,7 +64,7 @@ function OurAdvisors() {
             <AdvisorCard
                 Img={Achut}
                 name="Achuth Arun R"
-                linkedIn="https://www.linkedin.com/in/akshita-kaushik-0a8b3a1a1/"
+                linkedIn="https://www.linkedin.com/in/achutharunr/"
                 p1 = "NITK Surathkal and ISB Hyderabad (Merit List and Dean's List) Alum."
                 p2="Past - Kearney, Wells Fargo."
                 p3="Current - Strategy Consultant @Tata Strategic Management Group."

@@ -1,6 +1,6 @@
 import React from "react";
 import insta from '../assets/insta.png'
-import linkedIn from '../assets/linkedin.png'
+import linkedIn from '../assets/linkedInFooter.png'
 import mail from '../assets/mail.png'
 // import FadeInSection from '../components/cards/FadeInSection'
 

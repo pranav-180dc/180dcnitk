@@ -4,9 +4,9 @@ import nostosHomes from '../assets/nostos.jpeg'
 import lal10 from '../assets/lal10.png'
 import wakaoFoods from '../assets/wakaoFoods.webp'
 import inchara from '../assets/inchara.jpeg'
+import aashraya from '../assets/aashraya.jpeg'
 import TFI from '../assets/TFI.png'
 import ClientCard from './cards/ClientCard';
-
 
 
 function OurClients() {
@@ -69,7 +69,7 @@ function OurClients() {
             />
             <ClientCard 
                 name="Aashraya Foundation"
-                imgPath = {TFI}
+                imgPath = {aashraya}
                 w1="Outreach based on past data"
                 w2="Impact assessment"
                 w3="Program development"
