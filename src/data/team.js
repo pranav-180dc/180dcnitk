@@ -40,6 +40,7 @@ const profiles = [{
     member: "Ranjeet Sonawane",
     position: "President",
     imgUrl: Ranjeet,
+    linkedin: "https://www.linkedin.com/in/ranjeetsonawane/",
     bio: {
         line_1: "Incoming Product Analyst at Sprinklr",
         line_2: "Junior Consultant at Brainworks Consultancy",
@@ -48,9 +49,10 @@ const profiles = [{
 },
 {
     id: 2,
-    member: "Rohan Sunil",
+    member: "Rohaan Sunil",
     position: "Convenor",
     imgUrl: Rohan,
+    linkedin: "https://www.linkedin.com/in/rohaansunil/",
     bio: {
         line_1: "Intern at TAQA Energy",
         line_2: "Campus Director- UN MCN Millennium Fellowship",
@@ -62,6 +64,7 @@ const profiles = [{
     member: "Ankit Sandeep",
     position: "Director, Growth & Strat.",
     imgUrl: Ankit,
+    linkedin: "https://www.linkedin.com/in/ankit-sandeep/",
     bio: {
         line_1: "Incoming Startegy Associate at PwC US Advisory",
         line_2: "Previosuly a research Intern at IIMB and ISB",
@@ -73,6 +76,7 @@ const profiles = [{
     member: "Rahul Harikumar",
     position: "Consulting Director",
     imgUrl: Rahul,
+    linkedin: "https://www.linkedin.com/in/rahul-harikumar-63a832194/",
     bio: {
         line_1: "Intern at PwC US Advisory .",
         line_2: "A social impact enthusiast eager to make a difference in the non-profit sector."
