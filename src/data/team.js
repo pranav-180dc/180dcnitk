@@ -12,6 +12,7 @@ import Mahesh_Alluri from '../assets/Pictures/Mahesh_Alluri.jpg';
 import Mohan from '../assets/Pictures/Mohan.jpg';
 import Onkar from '../assets/Pictures/Onkar.jpg';
 import Pahal from '../assets/Pictures/Pahal.jpeg';
+import Vaibhav from '../assets/Pictures/Vaibhav.jpeg';
 import Nitin from '../assets/Pictures/Nitin.jpg';
 import Pranav from '../assets/Pictures/Pranav.jpeg';
 import Mayank from '../assets/Pictures/Mayank.jpeg';
@@ -23,7 +24,7 @@ import Deva from '../assets/Pictures/Deva.jpg';
 import Ranjeet from '../assets/Pictures/Ranjeet.jpg';
 import Rohan from '../assets/Pictures/Rohan.jpeg';
 import Rahul from '../assets/Pictures/Rahul.jpeg';
-// import Rakshith from '../assets/Pictures/Rakshith.jpg';
+import Rakshith from '../assets/Pictures/Rakshith.jpg';
 import Rakshith_N from '../assets/Pictures/Rakshith_N.jpg';
 import Romit from '../assets/Pictures/Romit.jpg';
 import Shivansh from '../assets/Pictures/Shivansh.jpg';
@@ -40,6 +41,7 @@ const profiles = [{
     member: "Ranjeet Sonawane",
     position: "President",
     imgUrl: Ranjeet,
+    linkedin: "https://www.linkedin.com/in/ranjeetsonawane/",
     bio: {
         line_1: "Incoming Product Analyst at Sprinklr",
         line_2: "Junior Consultant at Brainworks Consultancy",
@@ -48,9 +50,10 @@ const profiles = [{
 },
 {
     id: 2,
-    member: "Rohan Sunil",
+    member: "Rohaan Sunil",
     position: "Convenor",
     imgUrl: Rohan,
+    linkedin: "https://www.linkedin.com/in/rohaansunil/",
     bio: {
         line_1: "Intern at TAQA Energy",
         line_2: "Campus Director- UN MCN Millennium Fellowship",
@@ -62,6 +65,7 @@ const profiles = [{
     member: "Ankit Sandeep",
     position: "Director, Growth & Strat.",
     imgUrl: Ankit,
+    linkedin: "https://www.linkedin.com/in/ankit-sandeep/",
     bio: {
         line_1: "Incoming Startegy Associate at PwC US Advisory",
         line_2: "Previosuly a research Intern at IIMB and ISB",
@@ -73,6 +77,7 @@ const profiles = [{
     member: "Rahul Harikumar",
     position: "Consulting Director",
     imgUrl: Rahul,
+    linkedin: "https://www.linkedin.com/in/rahul-harikumar-63a832194/",
     bio: {
         line_1: "Intern at PwC US Advisory .",
         line_2: "A social impact enthusiast eager to make a difference in the non-profit sector."
@@ -216,8 +221,8 @@ const consultants = [
 },
 {
     id: 16,
-    member: "R M Deva",
-    imgUrl: Deva,
+    member: "Rakshith",
+    imgUrl: Rakshith,
  
 },
 {
@@ -250,6 +255,16 @@ const consultants = [
     imgUrl: Pahal,
  
 },
+{
+    id: 22,
+    member: "R M Deva",
+    imgUrl: Deva,
+},
+{
+    id: 23,
+    member: "Vaibhav S",
+    imgUrl: Vaibhav,
+}
 ]
  const Designers= [
 //   {
