@@ -5,6 +5,8 @@ import lal10 from '../assets/lal10.png'
 import wakaoFoods from '../assets/wakaoFoods.webp'
 import inchara from '../assets/inchara.jpeg'
 import aashraya from '../assets/aashraya.jpeg'
+import seevan from '../assets/seevan.png'
+import weft from '../assets/weft.png'
 import TFI from '../assets/TFI.png'
 import ClientCard from './cards/ClientCard';
 
@@ -61,7 +63,7 @@ function OurClients() {
             />
             <ClientCard 
                 name="Sevan Canteens"
-                imgPath = {TFI}
+                imgPath = {seevan}
                 w1="Devised USP and GTM strategy"
                 w2="Fundraising strategies"
                 w3="Social media positioning"
@@ -77,7 +79,7 @@ function OurClients() {
             />
             <ClientCard 
                 name="WEFT"
-                imgPath = {TFI}
+                imgPath = {weft}
                 w1="Designed social media and email campaigns"
                 w2="CSR fundraising strategy"
                 w3="Corporate - Client partnerships"
@@ -127,7 +129,7 @@ function OurClients() {
             />
             <ClientCard 
                 name="Sevan Canteens"
-                imgPath = {TFI}
+                imgPath = {seevan}
                 w1="Devised USP and GTM strategy"
                 w2="Fundraising strategies"
                 w3="Social media positioning"
@@ -135,7 +137,7 @@ function OurClients() {
             />
             <ClientCard 
                 name="Aashraya Foundation"
-                imgPath = {TFI}
+                imgPath = {aashraya}
                 w1="Outreach based on past data"
                 w2="Impact assessment"
                 w3="Program development"
@@ -143,7 +145,7 @@ function OurClients() {
             />
             <ClientCard 
                 name="WEFT"
-                imgPath = {TFI}
+                imgPath = {weft}
                 w1="Designed social media and email campaigns"
                 w2="CSR fundraising strategy"
                 w3="Corporate - Client partnerships"

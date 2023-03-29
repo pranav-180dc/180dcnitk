@@ -1,6 +1,6 @@
 import React from "react";
 import {profiles} from '../data/team';
-import linkedIn from '../assets/linkedIn.png';
+import linkedIn from '../assets/linkedin.png';
 import FadeInSection from '../components/cards/FadeInSection'
 // import Ranjeet from '../assets'
 
