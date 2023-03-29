@@ -29,7 +29,7 @@ export default function ContactUs() {
               <label for="message" class="block mb-2 text-sm font-medium text-lime-600">Your message</label>
               <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-lime-500 focus:border-lime-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-lime-500 dark:focus:border-lime-500" placeholder="Leave a comment..."></textarea>
           </div>
-          <button type="submit" class=" text-sm font-medium text-center text-white rounded bg-lime-600 sm:w-fit hover:bg-lime-800 focus:ring-4 focus:outline-none focus:ring-lime-300 dark:bg-lime-600 dark:hover:bg-lime-700 dark:focus:ring-lime-800">Submit</button>
+          <button type="submit" class=" text-sm font-medium text-center p-3 text-white rounded bg-lime-600 sm:w-fit hover:bg-lime-800 focus:ring-4 focus:outline-none focus:ring-lime-300 dark:bg-lime-600 dark:hover:bg-lime-700  dark:focus:ring-lime-800">Submit</button>
       </div>
       </form>
    </div>   

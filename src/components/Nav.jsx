@@ -12,7 +12,7 @@ export default function Nav() {
             <div className=" justify-evenly px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-0">
                 <div>
                     <div className="flex items-center justify-between basis-1/6 py-3 md:py-5 md:block">
-                    <a href="#" class="flex items-center">
+                    <a href="/" class="flex items-center">
           <img src={logo} class="h-16 sm:w-40" alt="180DC Logo" />
         </a>
                         <div className="md:hidden">

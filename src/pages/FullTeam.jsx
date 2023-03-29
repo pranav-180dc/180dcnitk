@@ -28,7 +28,7 @@ export default function Team() {
         <FadeInSection>
         <div className="hidden sm:flex justify-center items-center">
           <div className="flex flex-row p-4 m-4">
-            <a href="#execcore" onClick={(e) => handleClick(e, 'execcore')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2 border-l-2 rounded-l-md"><div className="p-4 text-lg font-title font-medium">Executive Core</div></a>
+            <a href="#execcore" onClick={(e) => handleClick(e, 'execcore')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2 border-l-2 rounded-l-md"><div className="p-4 text-lg font-title font-medium">Executive Board</div></a>
             <a href="#pm" onClick={(e) => handleClick(e, 'pm')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2"><div className="p-4 text-lg font-title font-medium">Project Managers</div></a>
             <a href="#consultants" onClick={(e) => handleClick(e, 'consultants')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2"><div className="p-4 text-lg font-title font-medium">Consultants</div></a>
             <a href="#designers" onClick={(e) => handleClick(e, 'designers')} className="focus:bg-lime-600 hover:bg-lime-600 hover:text-white transition-all delay-150 hover:rounded-md focus:rounded-md border-lime-500 border-y-2"><div className="p-4 text-lg font-title font-medium">Designers</div></a>
@@ -38,14 +38,14 @@ export default function Team() {
         </FadeInSection>
         <FadeInSection>
         <div className="text-lime-600 p-8 md:p-12 text-center text-4xl md:text-6xl font-bold font-title">
-              Executive Core
+              Executive Board
             </div>
         </FadeInSection>
         <FadeInSection>
           <div id="execcore" className="hidden md:flex  md:flex-row md:justify-center md:item-center  md:text-center ">
         {profiles.map((profile, idx) => (
-      <div className="text-lime-500 border-2 bg-opacity-50 border-lime-500  hover:scale-[1.05] transition-all delay-150  bg-slate-300 m-5 rounded-lg pb-2 shadow ">
-      
+      <div className="text-lime-500 border-2 bg-opacity-40 border-lime-500  hover:scale-[1.05] transition-all delay-150  bg-white-100 m-5 rounded-lg pb-2 shadow ">
+    
           <img class="rounded-t-lg" src={profile.imgUrl} alt="" />
 
       
@@ -94,7 +94,7 @@ export default function Team() {
             ))}
           </div>
         </FadeInSection>
-            <div className="flex flex-col justify-center items-center text-center ">
+            <div className="flex flex-col  justify-center items-center text-center ">
           <FadeInSection>
             <div id="consultants" className="text-lime-600 p-8 md:p-12 text-4xl md:text-7xl font-title font-bold">
               Consultants
@@ -107,8 +107,8 @@ export default function Team() {
         <FadeInSection>
           <div className=" md:flex flex-wrap justify-around p-3">
             {consultants.map((consultant, idx) => (
-              <div className=" flex flex-col  justify-center items-center  p-12">
-                <div className="flex justify-center items-center h-40 w-45 rounded-full bg-lime-600 object-center object-cover shadow-2xl">
+              <div className=" flex flex-col content-start items-center  p-11">
+                <div className="flex justify-center  items-center h-40 w-40 rounded-full bg-lime-600 object-center shadow-2xl">
                   <img src={consultant.imgUrl} alt="..." className="border-2 border-lime-600  hover:scale-[1.05] transition-all delay-150 h-40 w-40 rounded-full object-cover" />
                 </div>
                 <div className="flex justify-center items-center text-center text-black opacity-60 font-semibold font-title text-2xl">
