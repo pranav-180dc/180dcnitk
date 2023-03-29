@@ -12,6 +12,7 @@ import Mahesh_Alluri from '../assets/Pictures/Mahesh_Alluri.jpg';
 import Mohan from '../assets/Pictures/Mohan.jpg';
 import Onkar from '../assets/Pictures/Onkar.jpg';
 import Pahal from '../assets/Pictures/Pahal.jpeg';
+import Vaibhav from '../assets/Pictures/Vaibhav.jpeg';
 import Nitin from '../assets/Pictures/Nitin.jpg';
 import Pranav from '../assets/Pictures/Pranav.jpeg';
 import Mayank from '../assets/Pictures/Mayank.jpeg';
@@ -23,7 +24,7 @@ import Deva from '../assets/Pictures/Deva.jpg';
 import Ranjeet from '../assets/Pictures/Ranjeet.jpg';
 import Rohan from '../assets/Pictures/Rohan.jpeg';
 import Rahul from '../assets/Pictures/Rahul.jpeg';
-// import Rakshith from '../assets/Pictures/Rakshith.jpg';
+import Rakshith from '../assets/Pictures/Rakshith.jpg';
 import Rakshith_N from '../assets/Pictures/Rakshith_N.jpg';
 import Romit from '../assets/Pictures/Romit.jpg';
 import Shivansh from '../assets/Pictures/Shivansh.jpg';
@@ -220,8 +221,8 @@ const consultants = [
 },
 {
     id: 16,
-    member: "R M Deva",
-    imgUrl: Deva,
+    member: "Rakshith",
+    imgUrl: Rakshith,
  
 },
 {
@@ -254,6 +255,16 @@ const consultants = [
     imgUrl: Pahal,
  
 },
+{
+    id: 22,
+    member: "R M Deva",
+    imgUrl: Deva,
+},
+{
+    id: 23,
+    member: "Vaibhav S",
+    imgUrl: Vaibhav,
+}
 ]
  const Designers= [
 //   {
