@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         'white-opac': '#E6E6E6',
         'light-black': '#636363',
+        'services-gradient-1': '#71A233',
+        'services-gradient-2': '#96D646',
       },
       backgroundImage: {
         'wiggly-lines': "url('../src/assets/wigglyLines.png')",

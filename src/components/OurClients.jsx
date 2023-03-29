@@ -3,6 +3,7 @@ import FadeInSection from '../components/cards/FadeInSection'
 import nostosHomes from '../assets/nostos.jpeg'
 import lal10 from '../assets/lal10.png'
 import wakaoFoods from '../assets/wakaoFoods.webp'
+import inchara from '../assets/inchara.jpeg'
 import TFI from '../assets/TFI.png'
 import ClientCard from './cards/ClientCard';
 
@@ -17,7 +18,7 @@ function OurClients() {
         </FadeInSection>
       </div>
 
-      <div className='grid grid-cols-1 mt-4 md:grid-cols-2 lg:grid-cols-4'>
+      <div id='scroll-clients' className='grid grid-cols-8 gap-x-72 mt-4'>
             <ClientCard 
                 name="Nostos Homes"
                 imgPath = {nostosHomes}
@@ -44,6 +45,38 @@ function OurClients() {
             />
             <ClientCard 
                 name="Teach For India"
+                imgPath = {TFI}
+                w1="Conceptualized campus ambassador model"
+                w2="Outreach channel analysis"
+                w3="Rubric for institute approach"
+                w4="Streamlined recruitment process"
+            />
+            <ClientCard 
+                name="Inchara Foundation"
+                imgPath = {inchara}
+                w1="Conceptualized campus ambassador model"
+                w2="Outreach channel analysis"
+                w3="Rubric for institute approach"
+                w4="Streamlined recruitment process"
+            />
+            <ClientCard 
+                name="Sevan Canteens"
+                imgPath = {TFI}
+                w1="Conceptualized campus ambassador model"
+                w2="Outreach channel analysis"
+                w3="Rubric for institute approach"
+                w4="Streamlined recruitment process"
+            />
+            <ClientCard 
+                name="Aashraya Foundation"
+                imgPath = {TFI}
+                w1="Conceptualized campus ambassador model"
+                w2="Outreach channel analysis"
+                w3="Rubric for institute approach"
+                w4="Streamlined recruitment process"
+            />
+            <ClientCard 
+                name="WEFT"
                 imgPath = {TFI}
                 w1="Conceptualized campus ambassador model"
                 w2="Outreach channel analysis"

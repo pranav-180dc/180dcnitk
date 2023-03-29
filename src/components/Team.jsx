@@ -15,7 +15,7 @@ export default function Team() {
           </FadeInSection>
         </div>
         <FadeInSection>
-          <div className="flex justify-center font-title pt-8 text-4xl sm:text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-700 to-lime-200">
+          <div className="flex justify-center font-title pt-8 text-4xl sm:text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-lime-600">
             Executive Core
           </div>
         </FadeInSection>
